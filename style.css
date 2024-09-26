@@ -37,6 +37,8 @@ nav {
     flex-wrap: nowrap;
     overflow: hidden;
     height: 3.5rem;
+    width: 11rem;
+    transition: width 0.8s, opacity 0.8s;
 }
 
 #writing-form {
