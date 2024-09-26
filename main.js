@@ -6,6 +6,10 @@ let isCollapsed = false;
 const collapseIcon = document.getElementById("collapse-icon");
 const expandIcon = document.getElementById("expand-icon")
 
+function autoGrow(element) {
+    element.style.height = (element.scrollHeight) + "px";
+}
+
 const toggleCollapse = function() {
     // if statement to check if it is currently collapsed
     if (isCollapsed === false) {

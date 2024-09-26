@@ -54,7 +54,8 @@ nav {
     text-align: center;
     line-height: 2rem;
     font-size: 1rem;
-    border: 0;
+    max-height: 70vh;
+    border: none;
     outline: 0;
     resize: none;
     background-color: transparent;
