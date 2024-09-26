@@ -6,6 +6,8 @@ let isCollapsed = false;
 const collapseIcon = document.getElementById("collapse-icon");
 const expandIcon = document.getElementById("expand-icon")
 
+let navBarWidth = "10rem";
+
 function autoGrow(element) {
     element.style.height = (element.scrollHeight) + "px";
 }
@@ -14,7 +16,7 @@ const toggleCollapse = function() {
     // if statement to check if it is currently collapsed
     if (isCollapsed === false) {
         // reduce width of navbar so that only arrow fits & reduce opacity
-        navBar.style.width = "3rem";
+        navBar.style.width = "2.8rem";
         navBar.style.opacity = "0.5";
 
         // Change to expand icon
@@ -26,7 +28,7 @@ const toggleCollapse = function() {
 
     } else {
         // Change back width & opacity
-        navBar.style.width = "11rem";
+        navBar.style.width = navBarWidth;
         navBar.style.opacity = "1";
 
         // Change back icon

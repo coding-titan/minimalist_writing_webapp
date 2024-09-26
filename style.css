@@ -17,7 +17,7 @@ header {
 header i {
     padding: 0.5rem;
     margin: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -37,9 +37,11 @@ nav {
     top: 3vh;
     right: 2vw;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
     overflow: hidden;
-    height: 3.5rem;
-    width: 11rem;
+    height: 3rem;
+    width: 10rem;
     transition: width 0.8s, opacity 0.8s;
 }
 
