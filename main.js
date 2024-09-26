@@ -38,5 +38,10 @@ const toggleCollapse = function() {
     }
 }
 
+const justCollapse = function() {
+    isCollapsed = false;
+    toggleCollapse();
+}
+
 collapseButton.addEventListener("click", toggleCollapse)
 
