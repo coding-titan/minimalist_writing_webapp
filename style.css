@@ -5,6 +5,8 @@
 
 body {
     font: "PT Serif", serif;
+    background-image: linear-gradient(to top, white, azure);
+    height: 100vh;
 }
 
 header {
@@ -55,4 +57,5 @@ nav {
     border: 0;
     outline: 0;
     resize: none;
+    background-color: transparent;
 }
