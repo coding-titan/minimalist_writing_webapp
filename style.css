@@ -47,6 +47,7 @@ nav {
     margin: 13vh auto;
     display: flex;
     justify-content: center;
+    scrollbar-color: red;
 }
 
 #writing-box {
@@ -59,4 +60,6 @@ nav {
     outline: 0;
     resize: none;
     background-color: transparent;
+    scrollbar-color: silver transparent;
+    scrollbar-width: thin;
 }
